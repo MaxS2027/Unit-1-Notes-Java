@@ -34,12 +34,40 @@ public class Main {
       //COMPOUND expressions follow PEMDAS
       double result = 2 + 3 * 2;
       System.out.println(result);
-      int remain = 23 % 2
+      int remain = 23 % 2;
       System.out.println(remain);
       System.out.println( 628%2);
       // watch out for plus sign
       System.out.println(3+"3");
-  
+
+      int max_age = 16;
+      int aaniyah_age = max_age;
+      // both variables above contain same value
+
+      int x = 15;
+      int y = 21;
+      int z = 2;
+      x = y; //now stores same value as y
+      y = y * 2;
+      z = 27;
+
+      System.out.println(x);
+      System.out.println(y);
+
+      System.out.println("X is " + x );
+      System.out.println("Y is " + y   );
+      System.out.println("Z is " + z );
+      double num1 = 3; // int would create error
+      double num2 = 3.14;
+      num1 = 2 * num2; //cant fit double in int
+      System.out.println(num1);
+      // INCREMENT add on to a current value
+      int points = 0;
+      points = points + 1;
+      //DECREMENT decrease in existing value
+      points = points - 15;
+      System.out.println(points);
+
    }
 
    
