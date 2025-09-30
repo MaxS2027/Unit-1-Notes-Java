@@ -94,6 +94,20 @@ public class Main {
             int nearestNegative = (int) (negativeNum -0.5);
             System.out.println(nearestPositive);
             System.out.println(nearestNegative);
+
+            int runs = 0;
+            // Re-assign a variable to existing value + 1
+            runs = runs + 1; 
+            runs += 1;
+            System.out.println("Runs: " + runs);
+            //even shorter shortcut for adding or subtracting one
+            runs ++;
+            runs --;
+            System.out.print(runs);
+            runs *= -10;
+            runs /= 10;
+            runs *= 12;
+            System.out.println(runs);
          }
 
    }
